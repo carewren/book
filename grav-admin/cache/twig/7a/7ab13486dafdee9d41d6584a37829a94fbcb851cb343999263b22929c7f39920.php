@@ -37,7 +37,7 @@ class __TwigTemplate_adcb5c2855f5e68d43832912a48078186b90d1f983e1742f90efd25b5ce
         } else {
             // line 7
             echo "  ";
-            $this->loadTemplate("@images/grav-logo.svg", "partials/logo.html.twig", 7)->display($context);
+            $this->loadTemplate("@images/km-2.svg", "partials/logo.html.twig", 7)->display($context);
         }
         // line 9
         echo "</a>";
@@ -74,7 +74,7 @@ class __TwigTemplate_adcb5c2855f5e68d43832912a48078186b90d1f983e1742f90efd25b5ce
   {% set logo_file = (logo|first).name %}
   <img src=\"{{ url('theme://images/logo/' ~ logo_file)  }}\" alt=\"{{ site.name }}\" />
 {% else %}
-  {% include('@images/grav-logo.svg') %}
+  {% include('@images/km-2.svg') %}
 {% endif %}
 </a>", "partials/logo.html.twig", "/Applications/MAMP/htdocs/karenmcclellan/grav-admin/user/themes/quark/templates/partials/logo.html.twig");
     }

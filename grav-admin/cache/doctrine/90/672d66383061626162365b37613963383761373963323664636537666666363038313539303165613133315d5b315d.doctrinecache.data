@@ -1,0 +1,47 @@
+1545004490
+a:2:{s:7:"content";s:4625:"<p><img alt="hero image" src="/karenmcclellan/grav-admin/user/pages/images/ios-contacts-hero.gif" /></p>
+<h1>iOS Contacts</h1>
+<h2>Optimized for Accessibility</h2>
+<h3>Challenge</h3>
+<h5>How could Apple refine its iOS Contacts app to optimize accessibility under WCAG and A11Y guidelines?</h5>
+<p>The iPhone is already the preferred mobile platform for visually impaired users, due to Apple’s attention to accessibility best practices and its robust screen reader, VoiceOver. Explore the iOS Contacts app and identify opportunities to further optimize the experience for users who rely on VoiceOver to navigate their phones.</p>
+<p><strong>My Role</strong> | UX, UI
+<br /><strong>Tools Used</strong> | Pencil + Paper, Sketch, After Effects</p>
+<p><strong>The Process</strong></p>
+<p><a href="#research"><img alt="research" src="/karenmcclellan/grav-admin/user/pages/images/oval.png" /></a>
+<a href="#insights"><img alt="insights & opportunities" src="/karenmcclellan/grav-admin/user/pages/images/oval.png" /></a>
+<a href="#problem"><img alt="research" src="/karenmcclellan/grav-admin/user/pages/images/oval.png" /></a>
+<a href="#solution"><img alt="research" src="/karenmcclellan/grav-admin/user/pages/images/oval.png" /></a>
+<a href="#prototype"><img alt="research" src="/karenmcclellan/grav-admin/user/pages/images/oval.png" /></a></p>
+<hr />
+<h3>Research<a id="research"></a></h3>
+<h5>Screen readers require users to sift through a huge volume of content.</h5>
+<p>I began the research process with <strong>contextual inquiry</strong>, both in person and via video, observing visually impaired users as they navigated their phones with VoiceOver. The users almost always completed tasks and navigated through user flows as quickly or more so than non-impaired users. They dialed up the speed of the screen reader and were able to process content and take actions extremely quickly. Due to the huge amount of spoken content, users appreciated experiences that were streamlined and direct.</p>
+<p>To further explore screen reader UX, I went into my own iPhone’s settings and activated VoiceOver for a <strong>context of use analysis</strong>. For 2 days, I navigated my phone with VoiceOver, with special focus on the Contacts app, noting how gesture-based interactions changed and learning how affordances were communicated.</p>
+<p><img alt="using a screen reader" src="/karenmcclellan/grav-admin/user/pages/images/ios-contacts-context-of-use-analysis.jpg" /></p>
+<h5>Minimum accessibility requirements aren’t good enough.</h5>
+<p>Next, I dug into the A11Y guidelines, WCAG 2.0, and some secondary UX research to understand current accessibility standards and best practices. LOREM IPSUM ...</p>
+<h3>Insights &amp; Opportunities<a id="insights"></a></h3>
+<h5>Locate points of friction in the current app.</h5>
+<p>To uncover opportunities for improvement, I affinity-mapped research findings and sketched out the user flow for the current iOS Contacts app. Along the way, I jotted down the screen reader script and kept asking myself, <em>How could this be more streamlined?</em></p>
+<p><img alt="user flow map" src="/karenmcclellan/grav-admin/user/pages/images/ios-contacts-og-userflow.jpg" /></p>
+<p>I discovered 3 key opportunities to explore:
+Getting to actionable contact options requires 5 discrete steps.
+“Seeing” search results requires navigating away from the search field.
+It’s easy to unknowingly create a duplicate contact.</p>
+<h3>The Problem, Defined<a id="problem"></a></h3>
+<p><strong>The current iOS Contacts app relies too heavily on visual cues at crucial points in the user flow, and requires VoiceOver users to navigate more spoken content than necessary in order to take action.</strong></p>
+<h3>Design Solutions<a id="solution"></a></h3>
+<h5>Design the content before the GUI.</h5>
+<p>Before I even started sketching with a pencil, I drafted a revised user flow and VoiceOver script to ensure that I was thinking through the app’s hierarchy and mental model from a screen reader’s perspective.
+<img alt="script scrawl" src="/karenmcclellan/grav-admin/user/pages/images/ios-contacts-script.jpg" /></p>
+<h5>Bring insights into the interface … and iterate.</h5>
+<p>I turned that script into some initial sketches and revisited research insights as I evolved the ideas into wireframes.
+<img alt="iterations" src="/karenmcclellan/grav-admin/user/pages/images/fpo.png" /></p>
+<h3>Prototype<a id="prototype"></a></h3>
+<p>LOREM IPSUM
+…
+<img alt="prototype" src="/karenmcclellan/grav-admin/user/pages/images/fpo.png" /></p>
+<hr />
+<h3>Takeaways<a id="takeaways"></a></h3>
+<p>LOREM IPSUM</p>";s:12:"content_meta";N;}

@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1543694246,
-    'checksum' => '0bdf0309a50b90542269a98880f7b939',
+    'timestamp' => 1543765054,
+    'checksum' => '1e0a6a5f8f2bb980ad9bc45fb8697f9b',
     'files' => [
         'user/config' => [
             'security' => [
@@ -11,11 +11,11 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1542052824
+                'modified' => 1543702918
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1543692773
+                'modified' => 1543765052
             ]
         ],
         'system/config' => [
@@ -555,18 +555,18 @@ return [
             'salt' => 'vFzKgHGqLIMo2d'
         ],
         'site' => [
-            'title' => 'Grav',
+            'title' => 'Karen McClellan',
             'default_lang' => 'en',
             'author' => [
-                'name' => 'Joe Bloggs',
-                'email' => 'joe@example.com'
+                'name' => 'Karen McClellan',
+                'email' => 'karenmmcc@gmail.com'
             ],
             'taxonomies' => [
                 0 => 'category',
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+                'description' => 'Karen McClellan is a UX designer. Explore her work.'
             ],
             'summary' => [
                 'enabled' => true,
@@ -628,11 +628,11 @@ return [
                 'override_locale' => false
             ],
             'home' => [
-                'alias' => '/home',
-                'hide_in_urls' => false
+                'alias' => '/',
+                'hide_in_urls' => true
             ],
             'pages' => [
-                'theme' => 'quark',
+                'theme' => 'Quark',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'
@@ -657,7 +657,7 @@ return [
                     'twig' => true
                 ],
                 'markdown' => [
-                    'extra' => false,
+                    'extra' => true,
                     'auto_line_breaks' => false,
                     'auto_url_links' => false,
                     'escape_markup' => false,

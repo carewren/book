@@ -43,58 +43,58 @@ class __TwigTemplate_4770e80a0d516c8eb95d62c527e9bdf4681da7a8c383e2b02a2d8f291a1
 ";
         // line 7
         $this->displayBlock('head', $context, $blocks);
-        // line 36
+        // line 37
         echo "</head>
 <body id=\"top\" class=\"";
-        // line 37
+        // line 38
         $this->displayBlock('body_classes', $context, $blocks);
         echo "\">
     <div id=\"page-wrapper\">
     ";
-        // line 39
+        // line 40
         $this->displayBlock('header', $context, $blocks);
-        // line 70
+        // line 71
         echo "
     ";
-        // line 71
-        $this->displayBlock('hero', $context, $blocks);
         // line 72
+        $this->displayBlock('hero', $context, $blocks);
+        // line 73
         echo "
         <section id=\"start\">
         ";
-        // line 74
+        // line 75
         $this->displayBlock('body', $context, $blocks);
-        // line 84
+        // line 85
         echo "        </section>
 
     </div>
 
     ";
-        // line 88
+        // line 89
         $this->displayBlock('footer', $context, $blocks);
-        // line 91
+        // line 92
         echo "    
     <div class=\"mobile-container\">
         <div class=\"overlay\" id=\"overlay\">
             <div class=\"mobile-logo\">
                 ";
-        // line 95
-        $this->loadTemplate("partials/logo.html.twig", "partials/base.html.twig", 95)->display(array_merge($context, array("mobile" => true)));
         // line 96
+        $this->loadTemplate("partials/logo.html.twig", "partials/base.html.twig", 96)->display(array_merge($context, array("mobile" => true)));
+        // line 97
         echo "            </div>
             <nav class=\"overlay-menu\">
                 ";
-        // line 98
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 98)->display(array_merge($context, array("tree" => true)));
         // line 99
+        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 99)->display(array_merge($context, array("tree" => true)));
+        // line 100
         echo "            </nav>
         </div>
     </div>
 
 ";
-        // line 103
+        // line 104
         $this->displayBlock('bottom', $context, $blocks);
-        // line 106
+        // line 107
         echo "
 </body>
 ";
@@ -129,19 +129,20 @@ class __TwigTemplate_4770e80a0d516c8eb95d62c527e9bdf4681da7a8c383e2b02a2d8f291a1
         // line 16
         echo $this->getAttribute(($context["page"] ?? null), "url", array(0 => true, 1 => true), "method");
         echo "\" />
+    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Palanquin+Dark\" rel=\"stylesheet\">
 
     ";
-        // line 18
+        // line 19
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 26
+        // line 27
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "css", array(), "method");
         echo "
 
     ";
-        // line 28
+        // line 29
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 33
+        // line 34
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "js", array(), "method");
         echo "
@@ -149,92 +150,92 @@ class __TwigTemplate_4770e80a0d516c8eb95d62c527e9bdf4681da7a8c383e2b02a2d8f291a1
 ";
     }
 
-    // line 18
+    // line 19
     public function block_stylesheets($context, array $blocks = array())
     {
-        // line 19
+        // line 20
         echo "        ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => ("theme://css-compiled/spectre" . ($context["compress"] ?? null))), "method");
-        // line 20
+        // line 21
         echo "        ";
         if ($this->env->getExtension('Grav\Common\Twig\TwigExtension')->themeVarFunc("spectre.exp")) {
             $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => ("theme://css-compiled/spectre-exp" . ($context["compress"] ?? null))), "method");
         }
-        // line 21
+        // line 22
         echo "        ";
         if ($this->env->getExtension('Grav\Common\Twig\TwigExtension')->themeVarFunc("spectre.icons")) {
             $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => ("theme://css-compiled/spectre-icons" . ($context["compress"] ?? null))), "method");
         }
-        // line 22
-        echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => ("theme://css-compiled/theme" . ($context["compress"] ?? null))), "method");
         // line 23
         echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css/custom.css"), "method");
+        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => ("theme://css-compiled/theme" . ($context["compress"] ?? null))), "method");
         // line 24
         echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css/line-awesome.min.css"), "method");
+        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css/custom.css"), "method");
         // line 25
+        echo "        ";
+        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css/line-awesome.min.css"), "method");
+        // line 26
         echo "    ";
     }
 
-    // line 28
+    // line 29
     public function block_javascripts($context, array $blocks = array())
     {
-        // line 29
-        echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "jquery", 1 => 101), "method");
         // line 30
         echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://js/jquery.treemenu.js", 1 => array("group" => "bottom")), "method");
+        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "jquery", 1 => 101), "method");
         // line 31
         echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://js/site.js", 1 => array("group" => "bottom")), "method");
+        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://js/jquery.treemenu.js", 1 => array("group" => "bottom")), "method");
         // line 32
+        echo "        ";
+        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://js/site.js", 1 => array("group" => "bottom")), "method");
+        // line 33
         echo "    ";
     }
 
-    // line 37
+    // line 38
     public function block_body_classes($context, array $blocks = array())
     {
         echo ($context["body_classes"] ?? null);
     }
 
-    // line 39
+    // line 40
     public function block_header($context, array $blocks = array())
     {
-        // line 40
+        // line 41
         echo "        <section id=\"header\" class=\"section\">
             <section class=\"container ";
-        // line 41
+        // line 42
         echo ($context["grid_size"] ?? null);
         echo "\">
                 <nav class=\"navbar\">
                     <section class=\"navbar-section logo\">
                         ";
-        // line 44
-        $this->loadTemplate("partials/logo.html.twig", "partials/base.html.twig", 44)->display($context);
         // line 45
+        $this->loadTemplate("partials/logo.html.twig", "partials/base.html.twig", 45)->display($context);
+        // line 46
         echo "                    </section>
                     <section class=\"navbar-section desktop-menu\">
 
                         <nav class=\"dropmenu animated\">
                         ";
-        // line 49
+        // line 50
         $this->displayBlock('header_navigation', $context, $blocks);
-        // line 52
+        // line 53
         echo "                        </nav>
 
                         ";
-        // line 54
+        // line 55
         if (($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", array()), "login", array()), "enabled", array()) && $this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "username", array()))) {
-            // line 55
+            // line 56
             echo "                            <span class=\"login-status-wrapper\"><i class=\"fa fa-user\"></i> ";
-            $this->loadTemplate("partials/login-status.html.twig", "partials/base.html.twig", 55)->display($context);
+            $this->loadTemplate("partials/login-status.html.twig", "partials/base.html.twig", 56)->display($context);
             echo "</span>
                         ";
         }
-        // line 57
+        // line 58
         echo "
                     </section>
                 </nav>
@@ -250,76 +251,76 @@ class __TwigTemplate_4770e80a0d516c8eb95d62c527e9bdf4681da7a8c383e2b02a2d8f291a1
     ";
     }
 
-    // line 49
+    // line 50
     public function block_header_navigation($context, array $blocks = array())
     {
-        // line 50
-        echo "                            ";
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 50)->display($context);
         // line 51
+        echo "                            ";
+        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 51)->display($context);
+        // line 52
         echo "                        ";
     }
 
-    // line 71
+    // line 72
     public function block_hero($context, array $blocks = array())
     {
     }
 
-    // line 74
+    // line 75
     public function block_body($context, array $blocks = array())
     {
-        // line 75
+        // line 76
         echo "            <section id=\"body-wrapper\" class=\"section\">
                 <section class=\"container ";
-        // line 76
+        // line 77
         echo ($context["grid_size"] ?? null);
         echo "\">
                     ";
-        // line 77
+        // line 78
         $this->displayBlock('messages', $context, $blocks);
-        // line 80
+        // line 81
         echo "                    ";
         $this->displayBlock('content', $context, $blocks);
-        // line 81
+        // line 82
         echo "                </section>
             </section>
         ";
     }
 
-    // line 77
+    // line 78
     public function block_messages($context, array $blocks = array())
     {
-        // line 78
+        // line 79
         echo "                        ";
         try {
-            $this->loadTemplate("partials/messages.html.twig", "partials/base.html.twig", 78)->display($context);
+            $this->loadTemplate("partials/messages.html.twig", "partials/base.html.twig", 79)->display($context);
         } catch (Twig_Error_Loader $e) {
             // ignore missing template
         }
 
-        // line 79
+        // line 80
         echo "                    ";
     }
 
-    // line 80
+    // line 81
     public function block_content($context, array $blocks = array())
     {
     }
 
-    // line 88
+    // line 89
     public function block_footer($context, array $blocks = array())
     {
-        // line 89
-        echo "        ";
-        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 89)->display($context);
         // line 90
+        echo "        ";
+        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 90)->display($context);
+        // line 91
         echo "    ";
     }
 
-    // line 103
+    // line 104
     public function block_bottom($context, array $blocks = array())
     {
-        // line 104
+        // line 105
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "js", array(0 => "bottom"), "method");
         echo "
@@ -338,7 +339,7 @@ class __TwigTemplate_4770e80a0d516c8eb95d62c527e9bdf4681da7a8c383e2b02a2d8f291a1
 
     public function getDebugInfo()
     {
-        return array (  323 => 104,  320 => 103,  316 => 90,  313 => 89,  310 => 88,  305 => 80,  301 => 79,  293 => 78,  290 => 77,  284 => 81,  281 => 80,  279 => 77,  275 => 76,  272 => 75,  269 => 74,  264 => 71,  260 => 51,  257 => 50,  254 => 49,  238 => 57,  232 => 55,  230 => 54,  226 => 52,  224 => 49,  218 => 45,  216 => 44,  210 => 41,  207 => 40,  204 => 39,  198 => 37,  194 => 32,  191 => 31,  188 => 30,  185 => 29,  182 => 28,  178 => 25,  175 => 24,  172 => 23,  169 => 22,  164 => 21,  159 => 20,  156 => 19,  153 => 18,  145 => 33,  143 => 28,  137 => 26,  135 => 18,  130 => 16,  126 => 15,  123 => 14,  121 => 13,  110 => 9,  107 => 8,  104 => 7,  98 => 106,  96 => 103,  90 => 99,  88 => 98,  84 => 96,  82 => 95,  76 => 91,  74 => 88,  68 => 84,  66 => 74,  62 => 72,  60 => 71,  57 => 70,  55 => 39,  50 => 37,  47 => 36,  45 => 7,  40 => 5,  37 => 4,  35 => 3,  33 => 2,  31 => 1,);
+        return array (  324 => 105,  321 => 104,  317 => 91,  314 => 90,  311 => 89,  306 => 81,  302 => 80,  294 => 79,  291 => 78,  285 => 82,  282 => 81,  280 => 78,  276 => 77,  273 => 76,  270 => 75,  265 => 72,  261 => 52,  258 => 51,  255 => 50,  239 => 58,  233 => 56,  231 => 55,  227 => 53,  225 => 50,  219 => 46,  217 => 45,  211 => 42,  208 => 41,  205 => 40,  199 => 38,  195 => 33,  192 => 32,  189 => 31,  186 => 30,  183 => 29,  179 => 26,  176 => 25,  173 => 24,  170 => 23,  165 => 22,  160 => 21,  157 => 20,  154 => 19,  146 => 34,  144 => 29,  138 => 27,  136 => 19,  130 => 16,  126 => 15,  123 => 14,  121 => 13,  110 => 9,  107 => 8,  104 => 7,  98 => 107,  96 => 104,  90 => 100,  88 => 99,  84 => 97,  82 => 96,  76 => 92,  74 => 89,  68 => 85,  66 => 75,  62 => 73,  60 => 72,  57 => 71,  55 => 40,  50 => 38,  47 => 37,  45 => 7,  40 => 5,  37 => 4,  35 => 3,  33 => 2,  31 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -367,6 +368,7 @@ class __TwigTemplate_4770e80a0d516c8eb95d62c527e9bdf4681da7a8c383e2b02a2d8f291a1
 
     <link rel=\"icon\" type=\"image/png\" href=\"{{ url('theme://images/favicon.png') }}\" />
     <link rel=\"canonical\" href=\"{{ page.url(true, true) }}\" />
+    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Palanquin+Dark\" rel=\"stylesheet\">
 
     {% block stylesheets %}
         {% do assets.addCss('theme://css-compiled/spectre'~compress) %}

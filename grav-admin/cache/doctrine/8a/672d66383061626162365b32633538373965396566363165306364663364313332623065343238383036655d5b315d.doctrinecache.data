@@ -1,0 +1,14 @@
+1544907696
+a:2:{s:7:"content";s:469:"<h1>Hi! I'm Karen.</h1>
+<h2>Explore my work <i class="fas fa-long-arrow-alt-down"></i></h2>
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+  <div>
+  <img src="../images/oval.png" style="box-shadow: 5px 5px 20px #D3D3D3;" alt="iOS Contacts"><a href="/ios-contacts"><h4>iOS Contacts</h4></a>
+  </div>
+  <div>
+  <a href="/ios-contacts"><h4>Project 2</h4></a>
+  </div>
+  <div>
+  <a href="/ios-contacts"><h4>Project 3</h4></a>
+  </div>  
+</div>";s:12:"content_meta";N;}

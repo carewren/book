@@ -1,0 +1,12 @@
+---
+title: Contact
+body_classes: title-center title-h1h2
+---
+
+
+<div style="margin: auto; margin-top: 50px; width: 50%; max-width: 500px; min-width: 300px; border: 3px grey; padding: 20px; padding-bottom: 40px; text-align: center; border-radius: 5px; box-shadow: 5px 5px 20px #D3D3D3;">
+		<h3 style="font-family: 'Palanquin Dark', sans-serif;">Karen McClellan</h3>
+		<p><b>UX Designer</b></p>
+		<p><i class="fas fa-envelope"></i>  <a href="mailto:karenmmcc@gmail.com" title="email">karenmmcc@gmail.com</a>
+		<br><i class="fas fa-comments"></i>    <a href="https://twitter.com/karenmmcc" title="twitter">twitter</a> | <a href="https://medium.com/@karenmmcc" title="medium">medium</a> | <a href="https://www.linkedin.com/in/karenmmcc" title="linkedin">linkedin</a></p>
+</div>

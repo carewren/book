@@ -1,0 +1,9 @@
+1544454568
+a:2:{s:7:"content";s:362:"<h1>Accessible Contacts</h1>
+<h2>An A11Y Approach to the Contacts App</h2>
+<p><img alt="hero image" src="/karenmcclellan/grav-admin/user/pages/images/fpo.png" /></p>
+<h3>The Challenge</h3>
+<p>Design a contacts app for visually impaired users who rely on iOS VoiceOver to navigate their screen.</p>
+<div class="notices yellow">
+<p>NOTE: This is a note!</p>
+</div>";s:12:"content_meta";N;}

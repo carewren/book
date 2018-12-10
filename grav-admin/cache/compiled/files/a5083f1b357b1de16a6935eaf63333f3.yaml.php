@@ -2,16 +2,17 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/karenmcclellan/grav-admin/user/config/system.yaml',
-    'modified' => 1543692773,
+    'modified' => 1543765052,
     'data' => [
         'absolute_urls' => false,
         'home' => [
-            'alias' => '/home'
+            'alias' => '/',
+            'hide_in_urls' => true
         ],
         'pages' => [
-            'theme' => 'quark',
+            'theme' => 'Quark',
             'markdown' => [
-                'extra' => false
+                'extra' => true
             ],
             'process' => [
                 'markdown' => true,
